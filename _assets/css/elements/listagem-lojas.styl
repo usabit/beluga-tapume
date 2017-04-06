@@ -4,6 +4,10 @@
     
     +below(750px){
         margin-bottom 0 !important
+        font-size 18px
+    }
+    +below(450px){
+        font-size 18px
     }
     
     li {
@@ -16,6 +20,7 @@
         }
         +below(750px){
             column(1/2, $cycle: 2)
+            min-height 80px
         }
     }
 }
